@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Deb Group India – Products</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo-box {
+    background: white;
+    border: 2px dashed #aaa;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* BUTTONS */
+.buttons {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.buttons button {
+    padding: 10px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background: #0a4da2;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #06357a;
+}
+
+/* PRODUCT GRID */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.image-box {
+    height: 160px;
+    background: #eaeaea;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Our Products</h1>
+
+<img src="images/logo-jpg.jpeg"width="1400"height="500"</div>
+
+<div class="buttons">
+    <button onclick="showCategory('poultry-feed')">🐔 Poultry Feed</button>
+    <button onclick="showCategory('pig-feed')">🐖 Pig Feed</button>
+    <button onclick="showCategory('fish-feed')">🐟 Fish Feed</button>
+    <button onclick="showCategory('poultry-med')">💊 Poultry Medicine</button>
+    <button onclick="showCategory('pig-med')">💉 Pig Medicine</button>
+    <button onclick="showCategory('fish-med')">🧪 Fish Medicine</button>
+</div>
+
+<div class="products">
+
+<!-- ================= POULTRY FEED ================= -->
+<div class="card poultry-feed"><img src="images/special-jpg.jpeg"width="300"height="400"alt="Poultry Pre-Starter"><h3>Poultry Starter</h3><p class="price">₹ 3593.00</p></div>
+<div class="card poultry-feed"><img src="images/special2-jpg.jpeg"width="300"height="400"alt="Poultry Starter"><h3>Poultry Starter</h3><p class="price">₹ 3197.00</p></div>
+<div class="card poultry-feed"><img src="images/special1-jpg.jpeg"width="300"height="400"alt="Poultry Finisher"><h3>Poultry Finisher</h3><p class="price">₹ 2895.00</p></div>
+
+<!-- ================= PIG FEED ================= -->
+<div class="card pig-feed"><img src="images/pig1-jpg.jpeg"width="220"height="200"alt="Pig Creep Feed"><h3>Pig Creep Feed</h3><p class="price">₹ 3459.00</p></div>
+<div class="card pig-feed"><img src="images/pig2-jpg.jpeg"width="220"height="200"alt="Pig Starter"><h3>Pig Starter</h3><p class="price">₹ 3179.00</p></div>
+<div class="card pig-feed"><img src="images/pig3-jpg.jpeg"width="220"height="200"alt="Pig Grower"><h3>Pig Grower</h3><p class="price">₹ 2784.00</p></div>
+<div class="card pig-feed"><img src="images/pig4-jpg.jpeg"width="220"height="200"alt="Pig Finisher"><h3>Pig Finisher</h3><p class="price">₹ 2519.00</p></div>
+<div class="card pig-feed"><img src="images/pig5-jpg.jpeg"width="220"height="200"alt="Pig Sow Feed"><h3>Pig Sow Feed</h3><p class="price">₹ 3188.00</p></div>
+
+<!-- ================= FISH FEED ================= -->
+<div class="card fish-feed"><img src="images/fish-starter-jpg.jpeg"width="400" height="300"alt="Fish Starter"><h3>Fish Starter</h3><p class="price">₹4689.00</p></div>
+<div class="card fish-feed"><img src="images/fish-grower-jpg.jpeg"width="400"height="300"alt="Fish Grower"><h3>Fish Grower</h3><p class="price">₹ 4210.00</p></div>
+<div class="card fish-feed"><img src="images/fish-finisher-jpg.jpeg"width="400" height="300"alt="Fish Finisher"><h3>Fish Finisher</h3><p class="price">₹ 4095.00</p></div>
+
+<!-- ================= POULTRY MEDICINE ================= -->
+<div class="card poultry-med"><img src="images/iron-jpg.jpeg"width="285"height="200"alt="Iron Dextran"><h3>Iron Dextran</h3><p class="price">₹ 250.00</p></div>
+<div class="card poultry-med"><img src="images/vitaminb-jpg.jpeg"width="285"height="200"alt="Vitamin B-Complex"><h3>Vitamin B-Complex</h3><p class="price">₹ 450.00</p></div>
+<div class="card poultry-med"><img src="images/liver-jpg.jpeg"width="285"height="200"alt="Liver Tonic"><h3>Liver Tonic</h3><p class="price">₹ 580.00</p></div>
+<div class="card poultry-med"><img src="images/multivitamin-jpg.jpeg"width="285"height="200"alt="Multivitamin Supplement"><h3>Multivitamin Supplement</h3><p class="price">₹ 499.00</p></div>
+
+<!-- ================= PIG MEDICINE ================= -->
+<div class="card pig-med"><img src="images/fev-jpg.jpeg"width="220"height="220"alt="Swine Fever Vaccine"<h3>Swine Fever Vaccine</h3><p class="price">₹ 1099.00</p></div>
+<div class="card pig-med"><img src="images/flu-jpg.jpeg"width="220"height="220"alt="Swine Flu Vaccine"<h3>Swine Flu Vaccine</h3><p class="price">₹ 1500.00</p></div>
+<div class="card pig-med"><img src="images/vac-jpg.jpeg"width="220"height="220"alt="Erysipelas Vaccine"<h3>Erysipelas Vaccine</h3><p class="price">₹ 1600.00</p></div>
+<div class="card pig-med"><img src="images/toc-jpg.jpeg"width="220"height="220"alt="Oxytocin"<h3>Oxytocin</h3><p class="price">₹ 800.00</p></div>
+<div class="card pig-med"><img src="images/anti-jpg.jpeg"width="220"height="220"alt="Anti-inflammatory"<h3>Anti-inflammatory</h3><p class="price">₹ 700.00</p></div>
+
+<!-- ================= FISH MEDICINE ================= -->
+<div class="card fish-med"><img src="images/oxy-jpg.jpeg"width="280"height="400"alt="Oxytetracycline"><h3>Oxytetracycline</h3><p class="price">₹ 330.00</p></div>
+<div class="card fish-med"><img src="images/ery-jpg.jpeg"width="280"height="400"alt="Erythromycin"><h3>Erythromycin</h3><p class="price">₹ 799.00</p></div>
+<div class="card fish-med"><img src="images/kan-jpg.jpeg"width="280"height="400"alt="Kanamycin"><h3>Kanamycin</h3><p class="price">₹ 660.00</p></div>
+<div class="card fish-med"><img src="images/amo-jpg.jpeg"width="280"height="400"alt="Amoxicillin"><h3>Amoxicillin</h3><p class="price">₹ 550.00</p></div>
+
+</div>
+
+<script>
+function showCategory(category) {
+    document.querySelectorAll('.card').forEach(card => {
+        card.style.display = card.classList.contains(category) ? 'block' : 'none';
+    });
+}
+showCategory('poultry-feed'); // default
+</script>
+
+</body>
+</html>
